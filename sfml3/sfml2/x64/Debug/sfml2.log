@@ -1,14 +1,17 @@
 ﻿Z:\vs\vs2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (sfml2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   Source.cpp
-Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(49,16): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(78,16): warning C4244: =: преобразование "int" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(50,16): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(79,16): warning C4244: =: преобразование "int" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(64,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(93,116): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(93,86): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(103,132): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+Z:\javaProjects\vs\sfml\sfml3\sfml2\Source.cpp(103,94): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
   sfml2.vcxproj -> Z:\javaProjects\vs\sfml\sfml3\x64\Debug\sfml3.exe

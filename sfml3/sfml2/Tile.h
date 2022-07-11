@@ -11,18 +11,13 @@ using namespace sf;
 class Tile
 {
 public:
-	enum SideOfTile {
-		white = 1,
-		black = 2,
-		neutral = 0
-	};
-
 	float x;
 	float y;
 	int side;
+	int squareSize;
 	RectangleShape tile;
 public:
-	Tile(float x, float y);
+	Tile(float x, float y, int squareSize);
 	Tile();
 };
 

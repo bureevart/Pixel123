@@ -11,8 +11,12 @@ using namespace sf;
 class Grid
 {
 public:
-	int size;
+	int countX;
+	int countY;
+	int moveX;
+	int moveY;
+	int squareSize;
 	Tile** grid;
 
-	Grid(int size);
+	Grid(int countX, int countY, int moveX, int moveY, int squareSize);
 };

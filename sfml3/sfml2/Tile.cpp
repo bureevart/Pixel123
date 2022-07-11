@@ -6,8 +6,8 @@
 using namespace std;
 using namespace sf;
 
-Tile::Tile(float x, float y) {
-	Tile::tile = RectangleShape(Vector2f(30, 30));
+Tile::Tile(float x, float y, int squareSize) {
+	Tile::tile = RectangleShape(Vector2f(squareSize, squareSize));
 	tile.setFillColor(Color::White);
 	tile.setOutlineColor(Color::Black);
 	tile.setOutlineThickness(2);
